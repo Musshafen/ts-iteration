@@ -14,5 +14,6 @@ body {
 h1 {
   color: black;
   background-color: crimson;
-  border: 1px solid black;
+  border: 15px dash black;
+  padding: 5px 5px 5px 5px;
 }
