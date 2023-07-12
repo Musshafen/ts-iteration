@@ -9,11 +9,22 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  font-family: 'Ysabeau SC', sans-serif;
 }
 
 h1 {
   color: black;
   background-color: crimson;
-  border: 15px dash black;
+  border: 5px dashed black;
   padding: 5px 5px 5px 5px;
+}
+
+img {
+  width: 350px;
+  height: 350px;
+  padding: 10px 10px 10px 10px;
+  border: 5px solid black;
+}
+li {
+  list-style-type: circle;
 }
