@@ -44,7 +44,7 @@ function yelling(words: string[]): string[] {
 
 function doubleTrouble(numbers: number[]): number[] {
   // Replace the code below with your own code
-  return []
+  return numbers.map( number => number * 2 )
 }
 
 /*
