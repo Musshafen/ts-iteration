@@ -77,7 +77,15 @@ return newStrings
 
 function onlyTheEvenSurvive(numbers: number[]): number[] {
   // Replace the code below with your own code
-  return []
+  const newArray: number[] = []
+
+  const newStrings = numbers.map( function( number ) {
+      if( number % 2 === 0 ){
+        newArray.push(number)
+      }
+  })
+
+  return newArray
 }
 
 /*
