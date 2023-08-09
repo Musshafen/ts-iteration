@@ -58,7 +58,13 @@ function doubleTrouble(numbers: number[]): number[] {
 
 function stringyIndexes(strings: string[]): string[] {
   // Replace the code below with your own code
-  return []
+  const newStrings = strings.map( function(strings, index) {
+    const newMessage =(`${strings} is at index ${index}`)
+
+    return newMessage
+})
+
+return newStrings
 }
 
 /*
