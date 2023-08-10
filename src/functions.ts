@@ -184,7 +184,7 @@ function findTheNeedle(strings: string[]): string {
 
 function findTheNeedleIndex(strings: string[]): number {
   // Replace the code below with your own code
-  return 42
+  return strings.findIndex(word => word.includes('needle'))
 }
 
 /*
