@@ -241,7 +241,14 @@ function someoneToLove(strings: string[]): boolean {
 type Hobbies = Record<string, { title: string; description: string }>
 function objectKeys(objectOfHobbies: Hobbies): string[] {
   // Replace the code below with your own code
-  return []
+  const keys = Object.keys(objectOfHobbies)
+
+  const answer = keys.map(key => {
+    const hobby = objectOfHobbies[key]
+    return `${key} - ${hobby.title}`
+  })
+
+  return answer
 }
 
 /**
