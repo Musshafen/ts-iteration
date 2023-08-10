@@ -98,7 +98,15 @@ function onlyTheEvenSurvive(numbers: number[]): number[] {
 
 function onlyTheEvenIndexedSurvive(numbers: number[]): number[] {
   // Replace the code below with your own code
-  return []
+  const newArray: number[] = []
+
+  const newStrings = numbers.map( function( number, index  ) {
+      if( index % 2 === 0 ){
+        newArray.push(number)
+      }
+  })
+
+  return newArray
 }
 
 /*
