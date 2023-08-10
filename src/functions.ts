@@ -170,7 +170,7 @@ function everyoneIsOdd(numbers: number[]): boolean {
 
 function findTheNeedle(strings: string[]): string {
   // Replace the code below with your own code
-  return ''
+  return strings.find(word => word.includes('needle')) || ''
 }
 
 /*
