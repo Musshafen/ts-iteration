@@ -198,7 +198,11 @@ function findTheNeedleIndex(strings: string[]): number {
 
 function someoneToLove(strings: string[]): boolean {
   // Replace the code below with your own code
-  return false
+  function isFourLetters(fourLetters: string): boolean {
+    return fourLetters.length === 4
+  }
+
+  return strings.some(isFourLetters)
 }
 
 /*
