@@ -1,5 +1,9 @@
+# dependencies
 node_modules
+
+# Ignore the compiled js
+src/functions.js
+
+# misc
 .DS_Store
-dist
-dist-ssr
-*.local
+npm-debug.log
